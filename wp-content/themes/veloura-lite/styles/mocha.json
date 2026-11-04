@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Mocha",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#6D675F",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#9A6F56",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#F3EEE8",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#171717",
+          "name": "Secondary Second",
+          "slug": "secondary-second"
+        },
+        {
+          "color": "#DED4C8",
+          "name": "Secondary Third",
+          "slug": "secondary-third"
+        },
+        {
+          "color": "#FFFDFC",
+          "name": "Secondary Fourth",
+          "slug": "secondary-fourth"
+        },
+        {
+          "color": "#755240",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#FFFDFC",
+          "name": "Base",
+          "slug": "base"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #FFFDFC 0%, #F3EEE8 100%)",
+          "name": "Mocha Soft Gradient",
+          "slug": "vertical-secondary-to-tertiary"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #DED4C8 0%, #9A6F56 100%)",
+          "name": "Mocha Accent Gradient",
+          "slug": "vertical-secondary-to-fourth"
+        }
+      ]
+    }
+  }
+}

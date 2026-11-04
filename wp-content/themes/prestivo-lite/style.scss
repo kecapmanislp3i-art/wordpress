@@ -1,0 +1,41 @@
+/*
+Theme Name: Prestivo Lite
+Theme URI: https://catchthemes.com/themes/prestivo-lite
+Author: Catch Themes
+Author URI: https://catchthemes.com
+Description: Prestivo Lite is an elegant free fashion eCommerce WordPress block theme for full site editing. This block-based theme is designed for online clothing and accessories stores that sell apparel, bags, shoes, watches, and jewelry. It is ideal for fashion boutiques, clothing labels, shoe stores, and store owners of all levels, from startups to established retailers. Prestivo Lite works perfectly with the eCommerce plugin "WooCommerce" and includes a complete shopping flow with Archive Product, Taxonomy Product Category, Single Product, Product Search Results, Cart, Checkout, and Order Confirmation templates. With the drag-and-drop interface, you can build your content using block patterns and adjust the color options to match your brand. There are 21 block patterns, 16 Templates, and 13 Template Parts available in this theme. Some of the block patterns are 404 Header, Blog Header, Header, Header Media, Footer, Footer Widgets, Post Header, Product FAQ, Search Header, Secure Transaction, Shop Header, Shopping Features, Sidebar Products, Taxonomy Product Header, and many more. All the block patterns, Templates, and Template Parts are fully responsive, fast loading, SEO friendly, translation ready, and highly customizable. Download Prestivo Lite today and build a professional-looking online fashion store.
+Requires at least: 6.1
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: prestivo-lite
+Tags: e-commerce, blog, one-column, two-columns, right-sidebar, block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-site-editing, rtl-language-support, threaded-comments, translation-ready, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Prestivo Lite is based on Catch FSE WordPress Theme, 2012-2026 Catchthemes.com
+Catch FSE is distributed under the terms of the GNU GPL.
+*/
+
+/*--------------------------------------------------------------
+# Mixin
+--------------------------------------------------------------*/
+@import "sass/mixin/mixin";
+
+/*--------------------------------------------------------------
+# Blocks
+--------------------------------------------------------------*/
+
+@import "sass/blocks/all-blocks";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "sass/patterns/all-patterns";
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+@import "sass/media-query";

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Charcoal",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#6D675F",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#2B2927",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#EEEAE5",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#171717",
+          "name": "Secondary Second",
+          "slug": "secondary-second"
+        },
+        {
+          "color": "#D4CDC5",
+          "name": "Secondary Third",
+          "slug": "secondary-third"
+        },
+        {
+          "color": "#F8F5F1",
+          "name": "Secondary Fourth",
+          "slug": "secondary-fourth"
+        },
+        {
+          "color": "#5E5148",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#FFFDFC",
+          "name": "Base",
+          "slug": "base"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #FFFDFC 0%, #EEEAE5 100%)",
+          "name": "Charcoal Soft Gradient",
+          "slug": "vertical-secondary-to-tertiary"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #D4CDC5 0%, #2B2927 100%)",
+          "name": "Charcoal Accent Gradient",
+          "slug": "vertical-secondary-to-fourth"
+        }
+      ]
+    }
+  }
+}

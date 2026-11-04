@@ -1,0 +1,74 @@
+/* --- Offer Banner
+-------------------------------------------------------- */
+.wp-block-offer-banner {
+    .wc-block-featured-category {
+        display: block;
+        min-height: 100% !important;
+        .wc-block-featured-category__wrapper {
+            display: block;
+            text-align: center;
+            .background-dim__overlay {
+                background: transparent;
+                &:before {
+                    content: none;
+                    display: none;
+                }
+            }
+            .wc-block-featured-category__background-image {
+                position: static;
+                width: 175px;
+                height: auto;
+                object-fit: contain !important;
+                transition: 0.3s;
+            }
+            .wc-block-featured-category__inner-blocks {
+                padding: 0;
+                .wp-block-woocommerce-category-title {
+                    color: var(--wp--preset--color--title-color);
+                    font-size: var(--wp--preset--font-size--entry-title);
+                }
+                .wp-block-woocommerce-category-description {
+                    color: var(--wp--preset--color--meta);
+                    font-size: var(--wp--preset--font-size--small);
+                    font-style: italic;
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+                .wp-block-buttons {
+                    margin-top: var(--wp--preset--spacing--24);
+                    .wp-block-button {
+                        .wp-element-button {
+                            background-color: transparent;
+                            border: 2px solid var(--wp--preset--color--border-default-color);
+                            color: var(--wp--preset--color--title-color);
+                            font-size: var(--wp--preset--font-size--tiny);
+                            &:after {
+                                background-color: var(--wp--preset--color--body-text);
+                            }
+                            &:hover {
+                                background-color: var(--wp--preset--color--button-color);
+                                color: var(--wp--preset--color--color-light);
+                                border-color: var(--wp--preset--color--button-color);
+                                &:after {
+                                    background-color: var(--wp--preset--color--color-light);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wp-block-column {
+        transition: 0.3s;
+        &:hover {
+            .wc-block-featured-category .wc-block-featured-category__background-image,
+            .wp-block-image img {
+                transform: scale(1.12);
+            }
+        }
+    }
+
+ }

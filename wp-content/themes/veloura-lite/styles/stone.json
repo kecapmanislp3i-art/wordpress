@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Stone",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#6D675F",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#82766B",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#F2EFEA",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#171717",
+          "name": "Secondary Second",
+          "slug": "secondary-second"
+        },
+        {
+          "color": "#D8D1C9",
+          "name": "Secondary Third",
+          "slug": "secondary-third"
+        },
+        {
+          "color": "#F8F6F2",
+          "name": "Secondary Fourth",
+          "slug": "secondary-fourth"
+        },
+        {
+          "color": "#675C53",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#FFFDFC",
+          "name": "Base",
+          "slug": "base"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #FFFDFC 0%, #F2EFEA 100%)",
+          "name": "Stone Soft Gradient",
+          "slug": "vertical-secondary-to-tertiary"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #D8D1C9 0%, #82766B 100%)",
+          "name": "Stone Accent Gradient",
+          "slug": "vertical-secondary-to-fourth"
+        }
+      ]
+    }
+  }
+}

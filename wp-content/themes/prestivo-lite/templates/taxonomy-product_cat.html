@@ -1,0 +1,131 @@
+<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"className":"wp-block-latest-posts","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|91","top":"var:preset|spacing|65"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group wp-block-latest-posts"
+    style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--65);padding-bottom:var(--wp--preset--spacing--91)">
+    <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+    <div class="wp-block-group alignwide">
+        <!-- wp:columns {"align":"wide","className":"wp-product-category-with-sidebar toggle-product-sidebar wp-sidebar-on-left"} -->
+        <div
+            class="wp-block-columns alignwide wp-product-category-with-sidebar toggle-product-sidebar wp-sidebar-on-left">
+            <!-- wp:column {"width":"23%","className":"wp-product-sidebar-column"} -->
+            <div class="wp-block-column wp-product-sidebar-column" style="flex-basis:23%">
+                <!-- wp:group {"className":"wp-product-filter-btn-wrap","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|16"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+                <div class="wp-block-group wp-product-filter-btn-wrap"
+                    style="padding-bottom:var(--wp--preset--spacing--16)">
+                    <!-- wp:heading {"style":{"margin":{"top":"0","bottom":"0"},"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"entry-title"} -->
+                    <h2 class="wp-block-heading has-entry-title-font-size"
+                        style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:600">Filters</h2>
+                    <!-- /wp:heading -->
+
+                    <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
+                    <div class="wp-block-buttons"><!-- wp:button {"className":"filter-btn is-style-outline"} -->
+                        <div class="wp-block-button filter-btn is-style-outline"><a
+                                class="wp-block-button__link wp-element-button">Filters</a></div>
+                        <!-- /wp:button -->
+                    </div>
+                    <!-- /wp:buttons -->
+                </div>
+                <!-- /wp:group -->
+                <!-- wp:template-part {"slug":"sidebar-products","theme":"prestivo-lite","tagName":"div"} /-->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column {"width":"77%","className":"product-column","style":{"spacing":{"blockGap":"var:preset|spacing|14"}}} -->
+            <div class="wp-block-column product-column" style="flex-basis:77%">
+                <!-- wp:group {"metadata":{"name":"Page Heading"},"align":"full","className":"no-margin-top header-media-inner-post","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"default"}} -->
+                <div class="wp-block-group alignfull no-margin-top header-media-inner-post"
+                    style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--30)">
+                    <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+                    <div class="wp-block-group alignwide">
+                        <!-- wp:group {"className":"alignwide caos fade-in-down delay1","layout":{"type":"constrained","contentSize":"780px","justifyContent":"left"}} -->
+                        <div class="wp-block-group alignwide caos fade-in-down delay1">
+                            <!-- wp:query-title {"type":"archive","showPrefix":false,"fontSize":"section-title"} /-->
+                            <!-- wp:term-description {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta"}}},"spacing":{"margin":{"top":"var:preset|spacing|16"}}},"textColor":"meta","fontSize":"body-default"} /-->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+
+                <!-- wp:group {"metadata":{"name":"Filter Button and Sorting"},"align":"full","className":"wp-top-filter-row","style":{"spacing":{"padding":{"top":"var:preset|spacing|24","bottom":"var:preset|spacing|24"}}},"layout":{"type":"default"}} -->
+                <div class="wp-block-group alignfull wp-top-filter-row"
+                    style="padding-top:var(--wp--preset--spacing--24);padding-bottom:var(--wp--preset--spacing--24)">
+                    <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+                    <div class="wp-block-group alignwide">
+                        <!-- wp:group {"align":"wide","className":"wp-top-filter-row caos fade-in-up","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+                        <div class="wp-block-group alignwide wp-top-filter-row caos fade-in-up">
+                            <!-- wp:group {"className":"wp-product-filter-btn-wrap","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+                            <div class="wp-block-group wp-product-filter-btn-wrap"><!-- wp:buttons -->
+                                <div class="wp-block-buttons">
+                                    <!-- wp:button {"className":"filter-btn is-style-outline"} -->
+                                    <div class="wp-block-button filter-btn is-style-outline"><a
+                                            class="wp-block-button__link wp-element-button">Filters</a></div>
+                                    <!-- /wp:button -->
+                                </div>
+                                <!-- /wp:buttons -->
+
+                                <!-- wp:woocommerce/product-results-count {"fontSize":"extra-small"} /-->
+                            </div>
+                            <!-- /wp:group -->
+
+                            <!-- wp:group {"className":"alignwide"} -->
+                            <div class="wp-block-group alignwide">
+                                <!-- wp:woocommerce/catalog-sorting {"fontSize":"extra-small"} /-->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+
+                <!-- wp:group {"metadata":{"name":"Product Collection"},"align":"full","className":"alignfull","layout":{"type":"default"}} -->
+                <div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+                    <div class="wp-block-group alignwide">
+                        <!-- wp:woocommerce/product-collection {"queryId":1,"query":{"perPage":9,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","search":"","exclude":[],"inherit":true,"taxQuery":[],"isProductCollectionBlock":true,"featured":false,"woocommerceOnSale":false,"woocommerceStockStatus":["instock","outofstock","onbackorder"],"woocommerceAttributes":[],"woocommerceHandPickedProducts":[],"filterable":false,"relatedBy":{"categories":true,"tags":true}},"tagName":"div","displayLayout":{"type":"flex","columns":4,"shrinkColumns":true},"dimensions":{"widthType":"fill"},"queryContextIncludes":["collection"],"__privatePreviewState":{"isPreview":false,"previewMessage":"Actual products will vary depending on the page being viewed."},"align":"wide","className":"animate-products"} -->
+                        <div class="wp-block-woocommerce-product-collection alignwide animate-products">
+                            <!-- wp:woocommerce/product-template -->
+                            <!-- wp:template-part {"slug":"product-collection"} /-->
+                            <!-- /wp:woocommerce/product-template -->
+
+                            <!-- wp:query-pagination {"className":"caos fade-in-up","layout":{"type":"flex","justifyContent":"center"}} -->
+                            <!-- wp:query-pagination-previous /-->
+
+                            <!-- wp:query-pagination-numbers /-->
+
+                            <!-- wp:query-pagination-next /-->
+                            <!-- /wp:query-pagination -->
+
+                            <!-- wp:woocommerce/product-collection-no-results -->
+                            <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"wrap"}} -->
+                            <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
+                                <p class="has-medium-font-size"><strong>No results found</strong></p>
+                                <!-- /wp:paragraph -->
+
+                                <!-- wp:paragraph -->
+                                <p>You can try <a href="#" class="wc-link-clear-any-filters">clearing any filters</a> or
+                                    head to
+                                    our <a href="#" class="wc-link-stores-home">store's home</a></p>
+                                <!-- /wp:paragraph -->
+                            </div>
+                            <!-- /wp:group -->
+                            <!-- /wp:woocommerce/product-collection-no-results -->
+                        </div>
+                        <!-- /wp:woocommerce/product-collection -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:column -->
+        </div>
+        <!-- /wp:columns -->
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer-with-widgets","area":"footer","tagName":"footer"} /-->

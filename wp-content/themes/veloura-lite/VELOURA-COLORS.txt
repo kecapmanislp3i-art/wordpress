@@ -1,0 +1,11 @@
+Veloura Lite color system
+
+Primary / accent: #9A6F56
+Deep brown / hover: #755240
+Charcoal: #171717
+Body taupe: #6D675F
+Warm ivory: #FFFDFC
+Warm beige: #F3EEE8
+Soft taupe / borders: #DED4C8
+
+Palette aligned with Veloura Pro.

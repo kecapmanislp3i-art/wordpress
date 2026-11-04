@@ -1,0 +1,101 @@
+.wp-block-our-strength {
+    .section-content {
+        .wp-block-section-content {
+            transition: all 0.4s;
+
+            .wp-block-columns {
+                .wp-block-column {
+                    &.wp-block-button-column {
+                        .read-more {
+                            margin: 0;
+
+                            a {
+                                position: relative;
+                                display: flex;
+                                text-indent: -9999px;
+                                width: 22px;
+                                height: 22px;
+                                padding: 10px;
+                                justify-content: center;
+                                align-items: center;
+                                transform: rotate(-45deg);
+                                overflow: hidden;
+                                transition: all 0.3s ease-in-out;
+
+                                &:before {
+                                    width: 25px;
+                                    height: 2px;
+                                    background: var(--wp--preset--color--foreground);
+                                    content: '';
+                                    position: absolute;
+                                    z-index: 1;
+                                    right: 2px;
+                                    transition: all 0.3s ease-in-out;
+                                }
+
+                                &:after {
+                                    width: 12px;
+                                    height: 12px;
+                                    content: '';
+                                    border-right: 2px solid var(--wp--preset--color--foreground);
+                                    border-bottom: 2px solid var(--wp--preset--color--foreground);
+                                    z-index: 99;
+                                    position: absolute;
+                                    transform: rotate(315deg);
+                                    top: 14px;
+                                    right: 2px;
+                                    transition: all 0.3s ease-in-out;
+                                }
+
+                                &:hover {
+                                    &:before {
+                                        background: var(--wp--preset--color--text-link);
+                                    }
+
+                                    &:after {
+                                        border-right: 2px solid var(--wp--preset--color--text-link);
+                                        border-bottom: 2px solid var(--wp--preset--color--text-link);
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                .wp-block-columns {
+                    .wp-block-column {
+                        &.wp-block-button-column {
+                            .read-more {
+                                a {
+                                    transform: rotate(0deg);
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Our Strength Opacity, Hover State */
+.section-content .wp-block-section-content.caos-init {
+    opacity: .3;
+}
+
+.section-content .wp-block-section-content.caos-init:first-child {
+    opacity: 1;
+}
+
+.section-content:hover .wp-block-section-content.caos-init {
+    opacity: .3;
+}
+
+.section-content .wp-block-section-content.caos-init:hover {
+    opacity: 1;
+}

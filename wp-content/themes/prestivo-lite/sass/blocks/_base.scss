@@ -1,0 +1,19 @@
+:where(.wp-site-blocks *:focus) {
+    outline: revert;
+}
+
+:where(.wp-site-blocks *:focus-visible) {
+    outline-offset: 2px;
+}
+
+:where(.wp-site-blocks)>* {
+    margin-block-start: 0;
+}
+
+.wp-block-image {
+    margin-block-end: 1em;
+}
+
+:root :where(.editor-styles-wrapper) :where(.wp-block-post-title) {
+    font-size: var(--wp--preset--font-size--post-title-large);
+}

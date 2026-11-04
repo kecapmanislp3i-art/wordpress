@@ -1,0 +1,215 @@
+/* --- Block featured Category
+-------------------------------------------------------- */
+
+.wp-block-featured-category {
+    &.wp-block-section:nth-child(2n) {
+        .wc-block-featured-category {
+            .wc-block-featured-category__wrapper {
+                .background-dim__overlay {
+                    background-color: var(--wp--preset--color--secondary) !important;
+                }
+            }
+        }
+    }
+    overflow-x: hidden;
+
+    /* Section Left */
+    .wc-block-featured-category {
+        min-height: auto !important;
+        padding: var(--wp--preset--spacing--30);
+
+        .wc-block-featured-category__wrapper {
+            .background-dim__overlay {
+                background-color: var(--wp--preset--color--background) !important;
+            }
+
+            .wc-block-featured-category__background-image {
+                display: none;
+            }
+
+            .wc-block-featured-category__inner-blocks {
+                padding: 0;
+                h2  {
+                    text-align: left;
+                }
+                .wp-block-woocommerce-category-description {
+                    margin-top: 14px;
+                    text-align: left;
+                    &.block-editor-block-list__block {
+                        color: var(--wp--preset--color--meta);
+                    }
+                    p {
+                        color: var(--wp--preset--color--meta);
+                        margin: 0;
+                    }
+                }
+                .wp-block-woocommerce-category-title {
+                    color: var(--wp--preset--color--title-color);
+                    margin: 0;
+                }
+
+                .wp-block-buttons {
+                    margin-top: 21px;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    /* Section Right */
+    .wp-block-woocommerce-product-collection {
+        .wc-block-product-template {
+            display: grid;
+            grid-template-columns: unset !important;
+            grid-auto-flow: column;
+            overflow-x: auto;
+            overflow-y: hidden;
+            grid-auto-columns: 100%;
+
+            @media (min-width: 320px) {
+                gap: 1em;
+                grid-auto-columns: calc((100% - (1em * 1)) / 1.5);
+            }
+
+            @media (min-width: 600px) {
+                gap: 1.5em;
+                grid-auto-columns: calc((100% - (1.5em * 2)) / 2.5);
+            }
+
+            @media (min-width: 782px) {
+                grid-auto-columns: calc((100% - (1.5em * 3)) / 3.5);
+            }
+
+            @media (min-width: 1024px) {
+                gap: 1.8em;
+                grid-auto-columns: calc((100% - (1.8em * 3)) / 3.5);
+            }
+
+            @media (min-width: 1400px) {
+                gap: 2em;
+                grid-auto-columns: calc((100% - (2em * 3)) / 3.5);
+            }
+
+            .wc-block-product {
+                .product-image {
+                    .wp-block-woocommerce-product-image {
+                        border: 1px solid var(--wp--preset--color--border-default-color);
+                        transition: 0.3s;
+                    }
+                }
+
+                &:hover {
+                    box-shadow: none;
+
+                    .product-image {
+                        .wp-block-woocommerce-product-image {
+                            border: 1px solid var(--wp--preset--color--button-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Effects */
+.wp-block-featured-category,
+.wp-block-products-top-rated,
+.wp-block-products-on-sale {
+    .wp-block-woocommerce-product-collection {
+        .wc-block-product-template {
+            .wc-block-product {
+                opacity: 0;
+                transform: translateX(60px);
+                transition:
+                    transform .6s ease,
+                    opacity .6s ease;
+                will-change: transform, opacity;
+
+                &.block-editor-block-list__layout,
+                &.block-editor-block-preview__live-content.components-disabled {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+
+    &.caos-init {
+        .wp-block-woocommerce-product-collection {
+            .wc-block-product-template {
+                .wc-block-product {
+                    &.item-show {
+                        opacity: 1;
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Custom Scrollbar and Dragging */
+.scroller-section {
+    .wc-block-featured-category {
+        @media (max-width: 781px) {
+            padding-left: var(--wp--style--root--padding-left);
+            padding-right: var(--wp--style--root--padding-right);
+        }
+    }
+
+    .wc-block-product-template {
+        @media (max-width: 781px) {
+            padding-left: var(--wp--style--root--padding-left);
+        }
+    }
+
+    .wc-block-product-template {
+        cursor: grab;
+        user-select: none;
+        -webkit-user-select: none;
+
+        /* smooth native scroll */
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+
+        /* optional smoother snap */
+        scroll-snap-type: x proximity;
+
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 24 24' fill='none' stroke='%236fcfb8' stroke-width='1.6' stroke-linecap='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M8 9l-3 3 3 3'/%3E%3Cpath d='M16 9l3 3-3 3'/%3E%3C/svg%3E") 17 17, grab;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .custom-scrollbar {
+        position: relative;
+        width: 100%;
+        height: 6px;
+        background: var(--wp--preset--color--border-default-color);
+        border-radius: 999px;
+        overflow: hidden;
+        margin-top: 0;
+
+        @media (max-width: 781px) {
+            margin-left: var(--wp--style--root--padding-left);
+        }
+
+        .custom-scrollbar-thumb {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            min-width: 50px;
+            background: var(--wp--preset--color--foreground);
+            border-radius: 999px;
+            cursor: grab;
+        }
+    }
+}

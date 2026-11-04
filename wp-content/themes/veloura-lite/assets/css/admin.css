@@ -1,0 +1,47 @@
+.client-box {
+    position: absolute !important;
+    right: 0px !important;
+    top: 12% !important;
+}
+.slider-right {
+    position: relative !important;
+}
+.slide-item h2.custom-heading {
+    -webkit-text-stroke: 1px #00000021 !important;
+    color: transparent !important;
+    position: absolute !important;
+    bottom: -55px !important;
+}
+.slider-cover {
+    position: relative !important;
+}
+.blog-heading,.service-text-main{
+  text-align: center;
+}
+.service-text-main h4,.blog-heading h6{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px !important;
+}
+.service-text-main h4:after ,.blog-heading h6:after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0px;
+  width: 50%;
+  right: 0px;
+  height: 4px;
+  background-color: #9A6F56;
+  z-index: 0;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+/* Keep all slider slides visible in the Site Editor for easier editing. */
+.editor-styles-wrapper .veloura-slide {
+	display: flex !important;
+	margin-bottom: 24px;
+}
+.editor-styles-wrapper .veloura-slider-controls {
+	position: static;
+	margin: 16px 0 32px;
+}

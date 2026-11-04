@@ -1,0 +1,812 @@
+# Copyright (C) 2026 Nordic WP Theme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Veloura Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/veloura-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-22T05:02:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: veloura-lite\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Veloura Lite"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+#: about-theme/about-theme.php:8
+msgid "https://www.nordicwptheme.com/product/veloura-pro/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Veloura Lite delivers a modern solution for professionals who want to build visually striking websites with speed and precision. Designed for advanced Web design, UI design, and UX design, this theme helps you create a refined website layout using powerful design blocks, FSE blocks, and flexible WordPress blocks. With ready-made block patterns, it works as a complete website builder that supports true no-code design, making it ideal for both developers and non-technical users. This multipurpose theme features a minimal, elegant, and sophisticated look that suits a creative agency website, portfolio website, or any agency-friendly project. It's clean, and beautiful visuals appear sharp on all screens, thanks to a responsive, mobile-friendly, and Retina-ready structure. The theme uses optimized code, clean code, and secure and clean code to ensure faster page load time and reliable performance. The Veloura Lite includes pre-built sections, such as a bold Banner, Team showcase, testimonial section, and an engaging call-to-action button (CTA) to boost conversions. Integrated social media elements help increase reach, while interactive, stunning, and animated effects enhance user engagement. Built with Bootstrap support, useful shortcodes, and extensive Customization Options, it allows deep personalization without complexity. Developers appreciate its modern structure, while businesses value its Luxurious finish and practical personalization options. The theme remains user-friendly, translation-ready, and highly responsive, making it perfect for global audiences. Overall, the Veloura Lite empowers you to build a beautiful, high-performing website with complete creative freedom."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Nordic WP Theme"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.nordicwptheme.com/"
+msgstr ""
+
+#: about-theme/about-theme.php:9
+msgid "https://www.nordicwptheme.com/Documentation/"
+msgstr ""
+
+#: about-theme/about-theme.php:10
+msgid "https://wordpress.org/support/theme/veloura-lite/"
+msgstr ""
+
+#: about-theme/about-theme.php:11
+msgid "https://wordpress.org/support/theme/veloura-lite/reviews/#new-post"
+msgstr ""
+
+#: about-theme/about-theme.php:12
+msgid "https://www.nordicwptheme.com/product/veloura-pro/"
+msgstr ""
+
+#: about-theme/about-theme.php:13
+msgid "https://www.nordicwptheme.com/Documentation/"
+msgstr ""
+
+#: about-theme/about-theme.php:14
+msgid "https://www.nordicwptheme.com/product/veloura-pro/"
+msgstr ""
+
+#: about-theme/about-theme.php:15
+msgid "https://www.nordicwptheme.com/product/all-premium-wordpress-themes-for-multipurpose/"
+msgstr ""
+
+#: about-theme/about-theme.php:93
+msgid "Welcome! Thank you for choosing %1$s."
+msgstr ""
+
+#: about-theme/about-theme.php:94
+msgid "Thank you for choosing this theme. Use the Get Started guide to quickly set up and personalize your website."
+msgstr ""
+
+#: about-theme/about-theme.php:96
+msgid "Get started with %s"
+msgstr ""
+
+#: about-theme/about-theme.php:97
+msgid "GO FOR PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:98
+#: inc/customizer.php:32
+msgid "GET BUNDLE"
+msgstr ""
+
+#: about-theme/about-theme.php:155
+msgid "UPGRADE TO PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:163
+msgid "PREMIUM DEMONSTRATION"
+msgstr ""
+
+#: about-theme/about-theme.php:164
+msgid "Effortlessly create and customize your website using the Elementor editor. Arrange text, images, and service sections with a drag-and-drop interface, making page design simple and accessible without coding."
+msgstr ""
+
+#: about-theme/about-theme.php:166
+msgid "DEMONSTRATION"
+msgstr ""
+
+#: about-theme/about-theme.php:170
+#: about-theme/about-theme.php:173
+msgid "REVIEWS"
+msgstr ""
+
+#: about-theme/about-theme.php:171
+msgid "We would love to hear your thoughts and appreciate your feedback."
+msgstr ""
+
+#: about-theme/about-theme.php:177
+msgid "24/7 SUPPORT"
+msgstr ""
+
+#: about-theme/about-theme.php:178
+msgid "If you need assistance installing the Lite theme, please contact our support team. We’re happy to help."
+msgstr ""
+
+#: about-theme/about-theme.php:180
+msgid "SUPPORT"
+msgstr ""
+
+#: about-theme/about-theme.php:184
+msgid "THEME INSTRUCTION"
+msgstr ""
+
+#: about-theme/about-theme.php:185
+msgid "If you need assistance setting up the theme, our tutorial provides step-by-step instructions to help you get started quickly."
+msgstr ""
+
+#: about-theme/about-theme.php:187
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: about-theme/about-theme.php:195
+msgid "Get All Themes In Single Pack"
+msgstr ""
+
+#: about-theme/about-theme.php:196
+msgid "From customization to optimization, this bundle gives you the flexibility to create stunning websites."
+msgstr ""
+
+#: about-theme/about-theme.php:198
+msgid "BUY THEME BUNDLE"
+msgstr ""
+
+#: about-theme/about-theme.php:202
+msgid "logo"
+msgstr ""
+
+#: about-theme/about-theme.php:208
+msgid "A premium version is available for users who want access to additional features and advanced customization options."
+msgstr ""
+
+#: about-theme/about-theme.php:213
+#: inc/customizer.php:24
+msgid "GO TO PREMIUM"
+msgstr ""
+
+#: about-theme/about-theme.php:218
+msgid "PREMIUM DEMO"
+msgstr ""
+
+#: about-theme/about-theme.php:223
+msgid "PRO DOCUMENTATION"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Veloura Lite"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "All themes in Single Package"
+msgstr ""
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archive"
+msgstr ""
+
+#: patterns/archive.php:56
+msgid "No posts found"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/banner.php:17
+msgid "Veloura Lite"
+msgstr ""
+
+
+
+#: patterns/banner.php:21
+msgid "Feel Confident at Your Fingertips"
+msgstr ""
+
+#: patterns/banner.php:25
+msgid "Lorem Ipsum is simply dummy text of the printing and"
+msgstr ""
+
+#: patterns/banner.php:25
+msgid "typesetting industry."
+msgstr ""
+
+#: patterns/banner.php:30
+#: patterns/footer-default.php:69
+#: patterns/footer-default.php:108
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/banner.php:34
+msgid "Download CV"
+msgstr ""
+
+#: patterns/banner.php:48
+msgid "Client Review"
+msgstr ""
+
+#: patterns/banner.php:60
+msgid "Web Designer"
+msgstr ""
+
+#: patterns/blog.php
+msgctxt "Pattern title"
+msgid "Blog"
+msgstr ""
+
+#: patterns/blog.php:14
+msgid "The Latest News"
+msgstr ""
+
+#: patterns/blog.php:18
+#: patterns/projects.php:19
+msgid "Includes expert shaping, detailed cuticle care, and a high-gloss gel finish that stays perfect for weeks."
+msgstr ""
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr ""
+
+#: patterns/footer-default.php:22
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+msgstr ""
+
+#: patterns/footer-default.php:44
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer-default.php:49
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer-default.php:53
+msgid "Policy"
+msgstr ""
+
+#: patterns/footer-default.php:57
+msgid "Terms and Conditions"
+msgstr ""
+
+#: patterns/footer-default.php:61
+msgid "Career"
+msgstr ""
+
+#: patterns/footer-default.php:65
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer-default.php:76
+msgid "Services"
+msgstr ""
+
+#: patterns/footer-default.php:81
+msgid "Knowledge Base"
+msgstr ""
+
+#: patterns/footer-default.php:85
+msgid "Contact Support"
+msgstr ""
+
+#: patterns/footer-default.php:89
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-default.php:93
+msgid "Blog Articles"
+msgstr ""
+
+#: patterns/footer-default.php:97
+msgid "Brand Assets"
+msgstr ""
+
+#: patterns/footer-default.php:101
+msgid "Brand Guidelines"
+msgstr ""
+
+#: patterns/footer-default.php:114
+msgid "742 Evergreen Terrace, OR 97403, USA"
+msgstr ""
+
+#: patterns/footer-default.php:120
+msgid "Monday - Sunday"
+msgstr ""
+
+#: patterns/footer-default.php:124
+msgid "9:00 a.m. - 7:00 p.m."
+msgstr ""
+
+#: patterns/footer-default.php:130
+msgid "email@example.com"
+msgstr ""
+
+#: patterns/footer-default.php:136
+msgid "+1 (022) 333-5577"
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "Veloura Lite WordPress Theme"
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "| Proudly powered By"
+msgstr ""
+
+#: patterns/footer-default.php:147
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/header.php:39
+msgid "Book Now"
+msgstr ""
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-404.php:13
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgctxt "Message to convey that a webpage could not be found"
+msgid "This page could not be found."
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: patterns/hidden-404.php:22
+#: patterns/hidden-no-results.php:14
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Hidden Comments"
+msgstr ""
+
+#: patterns/hidden-comments.php:13
+msgctxt "Title of comments section"
+msgid "Comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php
+msgctxt "Pattern title"
+msgid "Hidden No Results Content"
+msgstr ""
+
+#: patterns/hidden-no-results.php:10
+msgctxt "Message explaining that there are no results returned from a search"
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: patterns/post-meta.php
+msgctxt "Pattern title"
+msgid "Post Meta"
+msgstr ""
+
+#: patterns/post-meta.php:28
+msgctxt "Verb to explain the publication status of a post"
+msgid "Posted"
+msgstr ""
+
+#: patterns/post-meta.php:36
+msgctxt "Preposition to show the relationship between the post and its categories"
+msgid "in"
+msgstr ""
+
+#: patterns/post-meta.php:48
+msgctxt "Preposition to show the relationship between the post and its author"
+msgid "by"
+msgstr ""
+
+#: patterns/post-meta.php:64
+msgctxt "Label for a list of post tags"
+msgid "Tags:"
+msgstr ""
+
+#: patterns/projects.php
+msgctxt "Pattern title"
+msgid "Projects"
+msgstr ""
+
+#: patterns/projects.php:15
+msgid "Our Signature Services"
+msgstr ""
+
+#: patterns/projects.php:35
+msgid "Gel Manicure"
+msgstr ""
+
+#: patterns/projects.php:39
+#: patterns/projects.php:57
+#: patterns/projects.php:75
+#: patterns/projects.php:93
+msgid "Includes expert shaping, detailed cuticle care & high-gloss Gel
+
+"
+msgstr ""
+
+#: patterns/projects.php:53
+msgid "Nail Art Design"
+msgstr ""
+
+#: patterns/projects.php:71
+msgid "Spa Pedicure"
+msgstr ""
+
+#: patterns/projects.php:89
+msgid "Bridal Nail"
+msgstr ""
+
+#: patterns/related-post.php
+msgctxt "Pattern title"
+msgid "Related Post"
+msgstr ""
+
+#: patterns/related-post.php:10
+msgid "Related Posts :-"
+msgstr ""
+
+#: patterns/service.php
+msgctxt "Pattern title"
+msgid "Service"
+msgstr ""
+
+#: patterns/service.php:23
+msgid "Great Support"
+msgstr ""
+
+#: patterns/service.php:27
+#: patterns/service.php:67
+msgid "Includes expert shaping, detailed cuticle care & high-gloss Gel
+
+"
+msgstr ""
+
+#: patterns/service.php:43
+msgid "Professional Design"
+msgstr ""
+
+#: patterns/service.php:47
+msgid "Includes expert shaping, detailed cuticle care & high-gloss Gel
+
+\t"
+msgstr ""
+
+#: patterns/service.php:63
+msgid "Personal Approch"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Archives"
+msgstr ""
+
+#: patterns/sidebar.php:32
+msgid "Popular Post"
+msgstr ""
+
+#: patterns/sidebar.php:52
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:62
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:72
+msgid "Follow Us On"
+msgstr ""
+
+#: styles/brown.json
+msgctxt "Style variation name"
+msgid "Brown"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Second"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Third"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Fourth"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr ""
+
+#: styles/brown.json
+#: styles/gray.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/pink.json
+#: styles/sky-blue.json
+#: styles/voilet.json
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to Fourth"
+msgstr ""
+
+#: styles/gray.json
+msgctxt "Style variation name"
+msgid "Gray"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr ""
+
+#: styles/sky-blue.json
+msgctxt "Style variation name"
+msgid "Sky Blue"
+msgstr ""
+
+#: styles/voilet.json
+msgctxt "Style variation name"
+msgid "Voilet"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page With No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Grid Layout(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Blog Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Blog Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Right)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Page (Sidebar on Left)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "404"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Mulish"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat Alternates"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Albert Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lato"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Syne"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Sora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr ""
